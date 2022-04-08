@@ -3,4 +3,4 @@ app =FLask(__name__)
 @app.route('/')
 def index():
 return "Привет, мир!"
-app.rin(port='8000')
+app.run(port='8000')
